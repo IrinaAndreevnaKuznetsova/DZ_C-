@@ -4,9 +4,13 @@
 // 12821 -> да
 // 23432 -> да
 
+
+
 Console.Write("Введите пятизначное число: ");
-
-
+int number = Convert.ToInt32(Console.ReadLine());
+if (number < 10000|| number >= 100000)
+Console.WriteLine ("Вы ввели не пятизначное число, пожалуйста повторите ввод");
+return;
 
 
 
